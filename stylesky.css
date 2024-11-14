@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#comparison-chart {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.building {
+  position: relative;
+  margin-right: 20px;
+}
+
+.building-image {
+  height: 400px; /* adjust according to the image */
+}
+
+.building-label {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.crane {
+  position: relative;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.crane-label {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 0, 0, 0.6);
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+}
+
+.crane img {
+  height: 300px; /* adjust based on crane height */
+}
+
+.crane-info {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#comparison-table {
+  width: 80%;
+  margin: 40px auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.view-more {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.view-more:hover {
+  background-color: #0056b3;
+}
+
+.image-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
